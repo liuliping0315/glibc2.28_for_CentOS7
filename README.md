@@ -19,6 +19,8 @@ then your vscode 1.99 work well
 this sysroot was compiled by ct-ng on CentOS7.9
 glibc 2.28 was compiled with 3.10 kernel
 patchelf is 0.15
+my system version: CentOS Linux release 7.9.2009
+my kernel: 3.10.0-1160.el7.x86\_64
 
 ## Suggestions:
 I have failed to install a ct-ng sysroot on a cluster due to the compicate environments.
