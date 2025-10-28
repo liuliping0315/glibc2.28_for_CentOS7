@@ -1,11 +1,12 @@
 # glibc2.28_for_CentOS7
-# failed if zsh is the default shell
+# solved zsh problem, see https://github.com/microsoft/vscode/issues/246375#issuecomment-2879508860
+# set VSCODE variables in .zshenv, not .zshrc
 
 ## Usage:
 ```bash
 tar -xf lib.tgz
 ```
-then set following in ~/.bashrc
+then set following in ~/.bashrc or ~/.zshenv
 ```bash
 export TOOLCHAIN_DIR=/path/to/glibc2.28_for_CentOS7  # MODIFY THIS!
 export TOOLCHAIN_VERSION=2.28
