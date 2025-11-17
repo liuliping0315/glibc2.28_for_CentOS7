@@ -1,6 +1,5 @@
-# glibc2.28_for_CentOS7
-# solved zsh problem, see https://github.com/microsoft/vscode/issues/246375#issuecomment-2879508860
-# set VSCODE variables in .zshenv, not .zshrc
+# glibc2.28\_for\_CentOS7
+# keyword: CentOS7, vscode, glibc
 
 ## Usage:
 ```bash
@@ -14,7 +13,7 @@ export VSCODE_SERVER_CUSTOM_GLIBC_LINKER=${TOOLCHAIN_DIR}/lib/ld-${TOOLCHAIN_VER
 export VSCODE_SERVER_CUSTOM_GLIBC_PATH=${TOOLCHAIN_DIR}/lib
 export VSCODE_SERVER_PATCHELF_PATH=${TOOLCHAIN_DIR}/bin/patchelf
 ```
-then your vscode 1.99 work well
+then your vscode 1.99+ work well
 
 ## Introduction:
 this sysroot was compiled by ct-ng on CentOS7.9
